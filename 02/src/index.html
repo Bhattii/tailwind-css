@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(210, 175, 241);
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 1vw;
+            padding-right: 1vw;
+
+        }
+
+        img {
+            /* position: absolute; */
+            top: -10px;
+            bottom: -10px;
+            left: 50px;
+            border: 2px solid white;
+            border-radius: 50%;
+            font-size: large;
+        }
+
+        header span {
+            color: yellow;
+        }
+
+        h1 {
+            font-weight: bolder;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class='bg-blue-500 h-[100px] w-full absolute top-4'>
+        <div class='px-3 py-5'>
+            <h1 class='text-white-500'>Muhammad Imran</h1>
+            <h4>Web Developer</h4>
+        </div>
+
+        <img class="profile-pic" src='../public/2024.jpg' alt='profile pic' srcset='../public/2024.jpg' width='10%'
+            height='10%'>
+        <h1>BUR<span>GER</span></h1>
+    </header>
+
+
+
+
+    <div class='flex h-full '>
+        <nav class='w-1/4 bg-gray-600'>
+            <h1>nav</h1>
+        </nav>
+        <main class='w-3/4 bg-slate-200'>
+            <h1>main</h1>
+        </main>
+    </div>
+
+</body>
+
+</html>
